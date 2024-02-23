@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+
+    <main class="container">
+      <p id="time"></p>
+      <h1>The current weather in London is...</h1>
+      <img src="cloud.png" id="emoji" />
+
+      <article class="weather-card">
+        <p id="weather">Loading weather...</p>
+      </article>
+
+      <div id="conversion">
+        <button type="button" id="celBtn">°C</button>
+        <button type="button" id="fahrBtn">°F</button>
+      </div>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1d2f42;
+  background-image: url('https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); /* Replace with your image file name */
+  background-size: cover; /* This will make the image cover the entire body */
+  background-repeat: no-repeat; /* This will prevent the image from repeating */
+  color: #ffffff;
+  font-size: 40px;
+  margin: 0;
+}
+.container {
+  padding: 40px;
+  background-color: #647b94c4;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  width: 70%;
+  max-width: 600px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #ffffff
+}
+
+#emoji {
+  display: block;
+  width: 100px;
+  margin: 0 auto 20px;
+}
+
+.weather-card {
+  background-color: #949ea9;
+  padding: 8px;
+  border-radius: 100px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  border: none;
+  background-color: #ffffff;
+  color: rgb(58, 55, 55);
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #62a2c5;
+}
+
+#conversion {
+  display: flex;
+  justify-content: center;
+
+}
+
+#conversion button {
+  align-items: center;
+  margin: 10px  10px 10px 10px;
+}
+
+#time {
+  display: flex;
+  justify-content: center;
+}
